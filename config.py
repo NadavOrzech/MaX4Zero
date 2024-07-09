@@ -36,8 +36,6 @@ class DataConfig:
     stage_1_output_dir: Path = None
     # Stage 2 and final results directory name
     stage_2_output_dir: Path = None
-    # Guiding text prompt
-    prompt: str = None
     # Input directory including images, masks, and prompt
     input_dir: Path = None
     # Text guiding scale

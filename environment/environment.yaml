@@ -1,0 +1,10 @@
+name: max4zero
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=24.0
+  - cudatoolkit=11.3
+  - pip:
+    - -r requirements.txt
